@@ -1,6 +1,48 @@
+body{
+  background-color:aqua;
+  color:black;
+}
 header{
-  background-image:url("https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwiG4eKvhN3hAhWkyIUKHaiTA88QjRx6BAgBEAU&url=https%3A%2F%2Fweheartit.com%2Fentry%2F272325541&psig=AOvVaw22AI6pDtTvvyvzw-_l78JH&ust=1555793419048623");
-  background-repeat: no no-repeat;
-  background-position: center;
-  background-size: cover;
+  background-color:black;
+}
+nav{
+  float:right;
+}
+nav ul li{
+  display:inline;
+  padding:10px;
+}
+nav ul li a{
+  color:aqua;
+  margin-top: 20px;
+}
+nav ul li a:hover{
+  background-color: lightblue;
+}
+h1{
+  color:blue;
+  text-align: center;
+}
+header img{
+  width:100px;;
+  border-radius:500px;
+  height:100px;
+}
+h2, p{
+  text-align: center;
+}
+ul li{
+  display: flex;
+  justify-content: center;
+}
+ol li{
+  display: flex;
+  justify-content: center;
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+}
+i{
+  font-size:10em;
 }
