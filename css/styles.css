@@ -7,6 +7,7 @@ header{
 }
 nav{
   float:right;
+  margin-top:50px;
 }
 nav ul li{
   display:inline;
@@ -14,7 +15,6 @@ nav ul li{
 }
 nav ul li a{
   color:aqua;
-  margin-top: 20px;
 }
 nav ul li a:hover{
   background-color: lightblue;
@@ -22,11 +22,14 @@ nav ul li a:hover{
 h1{
   color:blue;
   text-align: center;
+  font-family:monospace;
+  font-style: italic;
+  font-size:50px;
 }
 header img{
-  width:100px;;
+  width:200px;;
   border-radius:500px;
-  height:100px;
+  height:200px;
 }
 h2, p{
   text-align: center;
@@ -45,4 +48,9 @@ footer{
 }
 i{
   font-size:10em;
+  padding: 20px;
+}
+portfolio{
+  display: flex;
+  justify-content: space-around;
 }
